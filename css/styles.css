@@ -1,0 +1,223 @@
+/* цвет основного текста #757575 */
+/* цвет вторичного текста #212121 */
+/* белый #FFFFFF */
+/* акцент #2196F3 */
+/* цвет адреса rgba(255, 255, 255, 0.6); */
+/* цвет 2020 rgba(255, 255, 255, 0.4); */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --white-color: #ffffff;
+  --accent-color: #2196f3;
+  --adress-text: rgba(255, 255, 255, 0.6);
+  --niz-text: rgba(255, 255, 255, 0.4);
+  --background-secondary: #f5f4fa;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+ul {
+  list-style: none;
+}
+/* logo */
+.logo {
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.link-command {
+  text-decoration: none;
+}
+
+.logo-footer {
+  font-family: Raleway, cursive;
+  font-size: 22px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.Web {
+  color: var(--accent-color);
+}
+.Studio {
+  color: black;
+}
+
+/* site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.site-nav :hover,
+.site-nav :focus {
+  color: var(--accent-color);
+}
+
+/* info */
+.info a {
+  color: var(--primary-text-color);
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+.info {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+}
+
+.info-title :hover,
+.info-title :focus {
+  color: var(--accent-color);
+}
+
+/* section-title */
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+.plan {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.title-h {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.title-footer {
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+.p-command {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.tittle-command {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* hero-title */
+.hero-title {
+  color: var(--white-color);
+  background-color: black;
+  letter-spacing: 0.06em;
+  font-style: 400;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+/* title-applications" */
+.title-applications {
+  color: var(--white-color);
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.button {
+  color: var(--white-color);
+  background-color: var(--title-text-color);
+  font-family: inherit;
+}
+.button.primary {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.address {
+  color: var(--white-color);
+}
+
+.address .info {
+  color: var(--adress-text);
+}
+
+.niz {
+  color: var(--niz-text);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+}
+
+.button-secondary {
+  color: var(--title-text-color);
+  background-color: var(--background-secondary);
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.button-secondary:hover,
+.button-secondary:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+.list-tittle {
+  color: var(--title-text-color);
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.list-paragraph {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.list-link {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+}
