@@ -7,173 +7,200 @@
     <title>Document</title>
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+        rel="stylesheet" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
     <!--Шапка страницы-->
-    <header>
-        <nav>
-            <a class="logo" href="./index.html"><span class="Web">Web</span> <span class="Studio">Studio</span></a>
-            <ul class="site-nav">
-                <li><a href="./index.html" class="link current">Студия</a></li>
-                <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-                <li><a href="#" class="link">Контакты</a></li>
-            </ul>
-        </nav>
-        <ul class="info">
-            <li class="info-title"><a href="mailto:info@devstudio.com"><img src="./images/envelope.svg" alt="" />
-                    info@devstudio.com
-                </a>
-            </li>
-            <li class="info-title"><a href="tel:+380961111111">
-                    <img src="./images/Vector.svg" alt="" />
-                    +38 096 111 11 11
-                </a>
-            </li>
-        </ul>
-
+    <header class="page-header ">
+        <div class="container ">
+            <div class="main-nav">
+                <nav class="main-nav">
+                    <a class="logo" href="./index.html"><span class="Web">Web</span> <span
+                            class="Studio">Studio</span></a>
+                    <ul class="site-nav ">
+                        <li class="item"><a href="./index.html" class="link current">Студия</a></li>
+                        <li class="item"><a href="./portfolio.html" class="link ">Портфолио</a></li>
+                        <li class="item"><a href="#" class="link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <ul class="info main-nav">
+                    <li class="info-title"><a class="info-main" href="mailto:info@devstudio.com"><img
+                                src="./images/envelope.svg" alt="" />
+                            info@devstudio.com
+                        </a>
+                    </li>
+                    <li class="info-title"><a class="info-main" href="tel:+380961111111">
+                            <img src="./images/Vector.svg" alt="" />
+                            +38 096 111 11 11
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </header>
     <!--Уникальный контент-->
     <main>
         <!--1 секция-->
         <section class="hero">
-            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button class="button primary" type="button">Заказать услугу</button>
+            <h1 class="hero-title">Эффективные решения <br /> для вашего бизнеса</h1>
+            <a href="" class="button primary">Заказать услугу</a>
         </section>
         <!--2 секция Приемущества -->
         <section class="section">
-            <ul>
-                <li>
-                    <a href="#"><img src="./images/Antena.svg" alt="Антенна" /></a>
-                    <h2 class="section-title">Внимание к деталям</h2>
-                    <p class="plan">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                </li>
-                <li>
-                    <a href="#"><img src="./images/Clock.svg" alt="Часы" /></a>
-                    <h2 class="section-title">Пунктуальность</h2>
-                    <p class="plan">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-                    </p>
-                </li>
-                <li>
-                    <a href="#"><img src="./images/diagram.svg" alt="Диаграмма" /></a>
-                    <h2 class="section-title">Планирование</h2>
-                    <p class="plan">Равным образом консультация с широким активом в значительной степени обуславливает.
-                    </p>
-                </li>
-                <li>
-                    <a href="#"><img src="./images/astronaut.svg" alt="Астронавт" /></a>
-                    <h2 class="section-title">Современные технологии</h2>
-                    <p class="plan">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                </li>
-            </ul>
+            <div class="container">
+                <ul class="future">
+
+                    <li>
+                        <a href="#"><img class="icon" src="./images/Antena.svg" alt="Антенна" /></a>
+                        <h2 class="section-title">Внимание к деталям</h2>
+                        <p class="plan">Идейные соображения, а также начало повседневной работы по формированию позиции.
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#"><img class="icon" src="./images/Clock.svg" alt="Часы" /></a>
+                        <h2 class="section-title">Пунктуальность</h2>
+                        <p class="plan">Задача организации, в особенности же рамки и место обучения кадров влечет за
+                            собой.
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#"><img class="icon" src="./images/diagram.svg" alt="Диаграмма" /></a>
+                        <h2 class="section-title">Планирование</h2>
+                        <p class="plan">Равным образом консультация с широким активом в значительной степени
+                            обуславливает.
+                        </p>
+                    </li>
+                    <li>
+                        <a href="#"><img class="icon" src="./images/astronaut.svg" alt="Астронавт" /></a>
+                        <h2 class="section-title">Современные технологии</h2>
+                        <p class="plan">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
         <!--3 секция Чем мы занимаемся-->
         <section class="section">
-            <h3 class="title-h">Чем мы занимаемся</h3>
-            <ul>
-                <li><img src="./images/img.png" alt="Ноутбук на столе" width="380" height="294" />
-                    <h4 class="title-applications">Десктопные приложения</h4>
-                </li>
-                <li><img src="./images/box.png" alt="Телефон" width="380" height="294" />
-                    <h4 class="title-applications">Мобильные приложения</h4>
-                </li>
-                <li><img src="./images/img(1).png" alt="Компютер" width="380" height="294" />
-                    <h4 class="title-applications">Дизайнерские решения</h4>
-                </li>
-            </ul>
+            <div class="container">
+                <h3 class="title-h">Чем мы занимаемся</h3>
+                <ul class="future">
+                    <li><img class="img" src="./images/img.png" alt="Ноутбук на столе" width="380" height="294" />
+                        <h4 class="title-applications">Десктопные приложения</h4>
+                    </li>
+                    <li><img class="img" src="./images/box.png" alt="Телефон" width="380" height="294" />
+                        <h4 class="title-applications">Мобильные приложения</h4>
+                    </li>
+                    <li><img class="img" src="./images/img(1).png" alt="Компютер" width="380" height="294" />
+                        <h4 class="title-applications">Дизайнерские решения</h4>
+                    </li>
+                </ul>
+            </div>
         </section>
         <!--4 cекция Наша команда-->
-        <section class="section">
-            <h4 class="title-h">Наша команда</h4>
-            <ul>
-                <li>
-                    <img src="./images/imgJohn.png" alt="John Smith" width="278" height="260" />
-                    <h5 class="tittle-command">John Smith</h5>
-                    <p class="p-command">Product Designer</p>
-                    <ul>
-                        <li><a class="link-command" href="#" aria-label="Сыллка на Instagram">Instagram</a></li>
-                        <li><a class="link-command" href="#" aria-label="Сыллка на Twitter">Twitter</a></li>
-                        <li><a class="link-command" href="#" aria-label="Сыллка на Facebook">Facebook</a></li>
-                        <li><a class="link-command" href="#" aria-label="Сыллка на linkedin">linkedin</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <img src="./images/imgMarta.png" alt="Marta Stewart" width="278" height="260" />
-                    <h5 class="tittle-command">Marta Stewart</h5>
-                    <p class="p-command">Frontend Developer</p>
-                    <ul>
-                        <li><a class="link-command" href="#" aria-label="Сыллка на Instagram">Instagram</a></li>
-                        <li><a class="link-command" href="#" aria-label="Сыллка на Twitter">Twitter</a></li>
-                        <li><a class="link-command" href="#" aria-label="Сыллка на Facebook">Facebook</a></li>
-                        <li><a class="link-command" href="#" aria-label="Сыллка на linkedin">linkedin</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <img src="./images/imgRobert.png" alt="Robert Jakis" width="278" height="260" />
-                    <h5 class="tittle-command">Robert Jakis</h5>
-                    <p class="p-command">Marketing</p>
-                    <ul>
-                        <li><a class="link-command" href="#" aria-label="Сыллка на Instagram">Instagram</a></li>
-                        <li><a class="link-command" href="#" aria-label="Сыллка на Twitter">Twitter</a></li>
-                        <li><a class="link-command" href="#" aria-label="Сыллка на Facebook">Facebook</a></li>
-                        <li><a class="link-command" href="#" aria-label="Сыллка на linkedin">linkedin</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <img src="./images/imgMartin.png" alt="Martin Doe" width="278" height="260" />
-                    <h5 class="tittle-command">Martin Doe</h5>
-                    <p class="p-command">UI Designer</p>
-                    <ul>
-                        <li><a class="link-command" href="#" aria-label="Сыллка на Instagram">Instagram</a></li>
-                        <li><a class="link-command" href="#" aria-label="Сыллка на Twitter">Twitter</a></li>
-                        <li><a class="link-command" href="#" aria-label="Сыллка на Facebook">Facebook</a></li>
-                        <li><a class="link-command" href="#" aria-label="Сыллка на linkedin">linkedin</a></li>
-                    </ul>
-                </li>
-            </ul>
+        <section class="section-main">
+            <div class="container">
+                <h4 class="title-h">Наша команда</h4>
+                <ul class="container-team">
+                    <li class="main-team">
+                        <img class="team" src="./images/imgJohn.png" alt="John Smith" width="278" height="260" />
+                        <h5 class="tittle-command">John Smith</h5>
+                        <p class="p-command">Product Designer</p>
+                        <ul class="container-command">
+                            <li><a class="link-command" href="#" aria-label="Сыллка на Instagram">Instagram</a></li>
+                            <li><a class="link-command" href="#" aria-label="Сыллка на Twitter">Twitter</a></li>
+                            <li><a class="link-command" href="#" aria-label="Сыллка на Facebook">Facebook</a></li>
+                            <li><a class="link-command" href="#" aria-label="Сыллка на linkedin">linkedin</a></li>
+                        </ul>
+                    </li>
+                    <li class="main-team">
+                        <img class="team" src="./images/imgMarta.png" alt="Marta Stewart" width="278" height="260" />
+                        <h5 class="tittle-command">Marta Stewart</h5>
+                        <p class="p-command">Frontend Developer</p>
+                        <ul class="container-command">
+                            <li><a class="link-command" href="#" aria-label="Сыллка на Instagram">Instagram</a></li>
+                            <li><a class="link-command" href="#" aria-label="Сыллка на Twitter">Twitter</a></li>
+                            <li><a class="link-command" href="#" aria-label="Сыллка на Facebook">Facebook</a></li>
+                            <li><a class="link-command" href="#" aria-label="Сыллка на linkedin">linkedin</a></li>
+                        </ul>
+                    </li>
+                    <li class="main-team">
+                        <img class="team" src="./images/imgRobert.png" alt="Robert Jakis" width="278" height="260" />
+                        <h5 class="tittle-command">Robert Jakis</h5>
+                        <p class="p-command">Marketing</p>
+                        <ul class="container-command">
+                            <li><a class="link-command" href="#" aria-label="Сыллка на Instagram">Instagram</a></li>
+                            <li><a class="link-command" href="#" aria-label="Сыллка на Twitter">Twitter</a></li>
+                            <li><a class="link-command" href="#" aria-label="Сыллка на Facebook">Facebook</a></li>
+                            <li><a class="link-command" href="#" aria-label="Сыллка на linkedin">linkedin</a></li>
+                        </ul>
+                    </li>
+                    <li class="main-team">
+                        <img class="team" src="./images/imgMartin.png" alt="Martin Doe" width="278" height="260" />
+                        <h5 class="tittle-command">Martin Doe</h5>
+                        <p class="p-command">UI Designer</p>
+                        <ul class="container-command">
+                            <li><a class="link-command" href="#" aria-label="Сыллка на Instagram">Instagram</a></li>
+                            <li><a class="link-command" href="#" aria-label="Сыллка на Twitter">Twitter</a></li>
+                            <li><a class="link-command" href="#" aria-label="Сыллка на Facebook">Facebook</a></li>
+                            <li><a class="link-command" href="#" aria-label="Сыллка на linkedin">linkedin</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </section>
         <!--5 секция Постоянные клиенты-->
         <section class="section">
-            <h5 class="title-h">Постоянные клиенты</h5>
-            <ul>
-                <li>
-                    <a href="#"><img src="./images/logo1.svg" alt="Логотип компании" /> </a>
-                </li>
-                <li>
-                    <a href="#"><img src="./images/logo2.svg" alt="Логотип компании" /> </a>
-                </li>
-                <li>
-                    <a href="#"><img src="./images/logo3.svg" alt="Логотип компании" /> </a>
-                </li>
-                <li>
-                    <a href="#"><img src="./images/logo4.svg" alt="Логотип компании" /> </a>
-                </li>
-                <li>
-                    <a href="#"><img src="./images/logo5.svg" alt="Логотип компании" /> </a>
-                </li>
-                <li>
-                    <a href="#"><img src="./images/logo6.svg" alt="Логотип компании" /> </a>
-                </li>
-            </ul>
+            <div class="container">
+                <h5 class="title-h">Постоянные клиенты</h5>
+                <ul class="container-clients">
+                    <li class="clients">
+                        <a href="#"><img src="./images/logo1.svg" alt="Логотип компании" /> </a>
+                    </li>
+                    <li class="clients">
+                        <a href="#"><img src="./images/logo2.svg" alt="Логотип компании" /> </a>
+                    </li>
+                    <li class="clients">
+                        <a href="#"><img src="./images/logo3.svg" alt="Логотип компании" /> </a>
+                    </li>
+                    <li class="clients">
+                        <a href="#"><img src="./images/logo4.svg" alt="Логотип компании" /> </a>
+                    </li>
+                    <li class="clients">
+                        <a href="#"><img src="./images/logo5.svg" alt="Логотип компании" /> </a>
+                    </li>
+                    <li class="clients">
+                        <a href="#"><img src="./images/logo6.svg" alt="Логотип компании" /> </a>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <!--Подвал страницы-->
     <footer class="footer">
-        <a class="logo-footer" href="./index.html"><span class="Web">Web</span> <span class="Studio">Studio</span></a>
-        <address class="address">
-            г. Киев, пр-т Леси Украинки, 26 <br />
-            <a class="info" href="mailto:info@example.com">info@example.com</a><br />
-            <a class="info" href="tel:+380991111111">+38 099 111 11 11</a>
-        </address>
-        <h6 class="title-footer">присоединяйтесь</h6>
-        <ul>
-            <li><a class="link-command" href="#" aria-label="Сыллка на Instagram">Instagram</a></li>
-            <li><a class="link-command" href="#" aria-label="Сыллка на Twitter">Twitter</a></li>
-            <li><a class="link-command" href="#" aria-label="Сыллка на Facebook">Facebook</a></li>
-            <li><a class="link-command" href="#" aria-label="Сыллка на linkedin">linkedin</a></li>
-        </ul>
+        <div class="container footer-colums">
+            <div class="main-address">
+                <a class="logo-footer" href="./index.html"><span class="Web">Web</span> <span
+                        class="Studio">Studio</span>
+                </a>
+                <address class="address">
+                    г. Киев, пр-т Леси Украинки, 26 <br />
+                    <a class="info-f" href="mailto:info@example.com">info@example.com</a><br />
+                    <a class="info-f" href="tel:+380991111111">+38 099 111 11 11</a>
+                </address>
+            </div>
+            <div class="main-link-footer">
+                <h6 class="title-footer">присоединяйтесь</h6>
+                <ul>
+                    <li><a class="link-command" href="#" aria-label="Сыллка на Instagram">Instagram</a></li>
+                    <li><a class="link-command" href="#" aria-label="Сыллка на Twitter">Twitter</a></li>
+                    <li><a class="link-command" href="#" aria-label="Сыллка на Facebook">Facebook</a></li>
+                    <li><a class="link-command" href="#" aria-label="Сыллка на linkedin">linkedin</a></li>
+                </ul>
+            </div>
+        </div>
         <p class="niz">2020 | Developed by GoIT Students</p>
     </footer>
 </body>
