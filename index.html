@@ -28,13 +28,19 @@
                     </ul>
                 </nav>
                 <ul class="info main-nav">
-                    <li class="info-title"><a class="info-main" href="mailto:info@devstudio.com"><img
-                                src="./images/envelope.svg" alt="" />
+                    <li class="info-title">
+                        <a class="info-main mail" href="mailto:info@devstudio.com">
+                            <svg class="icon-mail">
+                                <use href="./images/sprite.svg#icon-envelope"></use>
+                            </svg>
                             info@devstudio.com
                         </a>
                     </li>
-                    <li class="info-title"><a class="info-main" href="tel:+380961111111">
-                            <img src="./images/Vector.svg" alt="" />
+                    <li class="info-title">
+                        <a class="info-main phone" href="tel:+380961111111">
+                            <svg class="icon-phone">
+                                <use href="./images/sprite.svg#icon-phone"></use>
+                            </svg>
                             +38 096 111 11 11
                         </a>
                     </li>
@@ -46,36 +52,37 @@
     <main>
         <!--1 секция-->
         <section class="hero">
-            <h1 class="hero-title">Эффективные решения <br /> для вашего бизнеса</h1>
-            <a href="" class="button primary">Заказать услугу</a>
+            <div class="overlay">
+                <h1 class="hero-title">Эффективные решения <br /> для вашего бизнеса</h1>
+                <a href="" class="button primary">Заказать услугу</a>
+            </div>
         </section>
         <!--2 секция Приемущества -->
         <section class="section border">
             <div class="container">
                 <ul class="future">
 
-                    <li>
-                        <a href="#"><img class="icon" src="./images/Antena.svg" alt="Антенна" /></a>
+                    <li class="icon-antenna">
+
                         <h2 class="section-title">Внимание к деталям</h2>
                         <p class="plan">Идейные соображения, а также начало повседневной работы по формированию позиции.
                         </p>
                     </li>
-                    <li>
-                        <a href="#"><img class="icon" src="./images/Clock.svg" alt="Часы" /></a>
+                    <li class="icon-clock">
                         <h2 class="section-title">Пунктуальность</h2>
                         <p class="plan">Задача организации, в особенности же рамки и место обучения кадров влечет за
                             собой.
                         </p>
                     </li>
-                    <li>
-                        <a href="#"><img class="icon" src="./images/diagram.svg" alt="Диаграмма" /></a>
+                    <li class="icon-diagram">
+
                         <h2 class="section-title">Планирование</h2>
                         <p class="plan">Равным образом консультация с широким активом в значительной степени
                             обуславливает.
                         </p>
                     </li>
-                    <li>
-                        <a href="#"><img class="icon" src="./images/astronaut.svg" alt="Астронавт" /></a>
+                    <li class="icon-astronaut">
+
                         <h2 class="section-title">Современные технологии</h2>
                         <p class="plan">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
@@ -109,10 +116,31 @@
                         <h5 class="tittle-command">John Smith</h5>
                         <p class="p-command">Product Designer</p>
                         <ul class="container-command">
-                            <li><a class="link-command" href="#" aria-label="Сыллка на Instagram">Instagram</a></li>
-                            <li><a class="link-command" href="#" aria-label="Сыллка на Twitter">Twitter</a></li>
-                            <li><a class="link-command" href="#" aria-label="Сыллка на Facebook">Facebook</a></li>
-                            <li><a class="link-command" href="#" aria-label="Сыллка на linkedin">linkedin</a></li>
+                            <li>
+                                <a class="link-command" href="#" aria-label="Сыллка на Instagram">
+                                    <svg class="icon-insta">
+                                        <use href="./images/sprite.svg#icon-Insta"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li><a class="link-command" href="#" aria-label="Сыллка на Twitter">
+                                    <svg class="icon-insta">
+                                        <use href="./images/sprite.svg#icon-Insta"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li><a class="link-command" href="#" aria-label="Сыллка на Facebook">
+                                    <svg class="icon-insta">
+                                        <use href="./images/sprite.svg#icon-Insta"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li><a class="link-command" href="#" aria-label="Сыллка на linkedin">
+                                    <svg class="icon-insta">
+                                        <use href="./images/sprite.svg#icon-Insta"></use>
+                                    </svg>
+                                </a>
+                            </li>
                         </ul>
                     </li>
                     <li class="main-team">
@@ -157,22 +185,48 @@
                 <h5 class="title-h">Постоянные клиенты</h5>
                 <ul class="container-clients">
                     <li class="clients">
-                        <a href="#"><img src="./images/logo1.svg" alt="Логотип компании" /> </a>
+
+                        <a class="icon-hover" href="#">
+                            <svg class="icon-logo1">
+                                <use href="./images/sprite.svg#icon-logo1"></use>
+                            </svg>
+                        </a>
+
                     </li>
                     <li class="clients">
-                        <a href="#"><img src="./images/logo2.svg" alt="Логотип компании" /> </a>
+                        <a href="#">
+                            <svg class="icon-logo2">
+                                <use href="./images/sprite.svg#icon-logo2"></use>
+                            </svg>
+                        </a>
                     </li>
                     <li class="clients">
-                        <a href="#"><img src="./images/logo3.svg" alt="Логотип компании" /> </a>
+                        <a href="#">
+                            <svg class="icon-logo3">
+                                <use href="./images/sprite.svg#icon-logo3"></use>
+                            </svg>
+                        </a>
                     </li>
                     <li class="clients">
-                        <a href="#"><img src="./images/logo4.svg" alt="Логотип компании" /> </a>
+                        <a href="#">
+                            <svg class="icon-logo4">
+                                <use href="./images/sprite.svg#icon-logo4"></use>
+                            </svg>
+                        </a>
                     </li>
                     <li class="clients">
-                        <a href="#"><img src="./images/logo5.svg" alt="Логотип компании" /> </a>
+                        <a href="#">
+                            <svg class="icon-logo5">
+                                <use href="./images/sprite.svg#icon-logo5"></use>
+                            </svg>
+                        </a>
                     </li>
                     <li class="clients">
-                        <a href="#"><img src="./images/logo6.svg" alt="Логотип компании" /> </a>
+                        <a href="#">
+                            <svg class="icon-logo6">
+                                <use href="./images/sprite.svg#icon-logo6"></use>
+                            </svg>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -199,6 +253,11 @@
                     <li><a class="link-command" href="#" aria-label="Сыллка на Facebook">Facebook</a></li>
                     <li><a class="link-command" href="#" aria-label="Сыллка на linkedin">linkedin</a></li>
                 </ul>
+            </div>
+            <div>
+                <h6 class="title-footer">Подпишитесь на рассылку</h6>
+                <a href="">E-mail</a>
+                <a href="" class="button primary-footer">Подписаться</a>
             </div>
         </div>
         <p class="container niz">2020 | Developed by GoIT Students</p>

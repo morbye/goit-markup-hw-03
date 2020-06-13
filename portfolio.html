@@ -15,26 +15,32 @@
 
 <body>
     <!--Шапка страницы-->
-    <header class="page-header portfolio ">
+    <header class="page-header ">
         <div class="container ">
             <div class="main-nav">
                 <nav class="main-nav">
                     <a class="logo" href="./index.html"><span class="Web">Web</span> <span
                             class="Studio">Studio</span></a>
                     <ul class="site-nav ">
-                        <li class="item"><a href="./index.html" class="link">Студия</a></li>
-                        <li class="item"><a href="./portfolio.html" class="link current">Портфолио</a></li>
+                        <li class="item"><a href="./index.html" class="link current">Студия</a></li>
+                        <li class="item"><a href="./portfolio.html" class="link ">Портфолио</a></li>
                         <li class="item"><a href="#" class="link">Контакты</a></li>
                     </ul>
                 </nav>
                 <ul class="info main-nav">
-                    <li class="info-title"><a class="info-main" href="mailto:info@devstudio.com"><img
-                                src="./images/envelope.svg" alt="" />
+                    <li class="info-title">
+                        <a class="info-main mail" href="mailto:info@devstudio.com">
+                            <svg class="icon-mail">
+                                <use href="./images/sprite.svg#icon-envelope"></use>
+                            </svg>
                             info@devstudio.com
                         </a>
                     </li>
-                    <li class="info-title"><a class="info-main" href="tel:+380961111111">
-                            <img src="./images/Vector.svg" alt="" />
+                    <li class="info-title">
+                        <a class="info-main phone" href="tel:+380961111111">
+                            <svg class="icon-phone">
+                                <use href="./images/sprite.svg#icon-phone"></use>
+                            </svg>
                             +38 096 111 11 11
                         </a>
                     </li>
@@ -60,7 +66,7 @@
                 <ul class="flex-list">
                     <li class="list">
                         <div class="card">
-                            <a class="link-command" href="#">
+                            <a class="link-card" href="#">
                                 <img class="img-portfolio" src="./images/1img.jpg" alt="Macbook" width="370"
                                     height="294" />
                                 <div class="card-content">
@@ -73,7 +79,7 @@
                     </li>
                     <li class="list">
                         <div class="card">
-                            <a class="link-command" href="#">
+                            <a class="link-card" href="#">
                                 <img class="img-portfolio" src="./images/2img.jpg" alt="2 баскетболиста" width="370"
                                     height="294" />
                                 <div class="card-content">
@@ -86,7 +92,7 @@
                     </li>
                     <li class="list">
                         <div class="card">
-                            <a class="link-command" href="#">
+                            <a class="link-card" href="#">
                                 <img class="img-portfolio" src="./images/3img.jpg" alt="логотип ресторана" width="370"
                                     height="294" />
                                 <div class="card-content">
@@ -99,7 +105,7 @@
                     </li>
                     <li class="list">
                         <div class="card">
-                            <a class="link-command" href="#">
+                            <a class="link-card" href="#">
                                 <img class="img-portfolio" src="./images/4img.jpg" alt="наушники" width="370"
                                     height="294" />
                                 <div class="card-content">
@@ -112,7 +118,7 @@
                     </li>
                     <li class="list">
                         <div class="card">
-                            <a class="link-command" href="#">
+                            <a class="link-card" href="#">
                                 <img class="img-portfolio" src="./images/5img.jpg" alt="2 коробки" width="370"
                                     height="294" />
                                 <div class="card-content">
@@ -125,7 +131,7 @@
                     </li>
                     <li class="list">
                         <div class="card">
-                            <a class="link-command" href="#">
+                            <a class="link-card" href="#">
                                 <img class="img-portfolio" src="./images/6img.jpg" alt="компьютер" width="370"
                                     height="294" />
                                 <div class="card-content">
@@ -138,7 +144,7 @@
                     </li>
                     <li class="list">
                         <div class="card">
-                            <a class="link-command" href="#">
+                            <a class="link-card" href="#">
                                 <img class="img-portfolio" src="./images/7img.jpg" alt="книга" width="370"
                                     height="294" />
                                 <div class="card-content">
@@ -151,7 +157,7 @@
                     </li>
                     <li class="list">
                         <div class="card">
-                            <a class="link-command" href="#">
+                            <a class="link-card" href="#">
                                 <img class="img-portfolio" src="./images/8img.jpg" alt="проект лаб" width="370"
                                     height="294" />
                                 <div class="card-content">
@@ -164,7 +170,7 @@
                     </li>
                     <li class="list">
                         <div class="card">
-                            <a class="link-command" href="#">
+                            <a class="link-card" href="#">
                                 <img class="img-portfolio" src="./images/9img.jpg" alt="ноутбук" width="370"
                                     height="294" />
                                 <div class="card-content">
@@ -200,6 +206,11 @@
                     <li><a class="link-command" href="#" aria-label="Сыллка на Facebook">Facebook</a></li>
                     <li><a class="link-command" href="#" aria-label="Сыллка на linkedin">linkedin</a></li>
                 </ul>
+            </div>
+            <div>
+                <h6 class="title-footer">Подпишитесь на рассылку</h6>
+                <a href="">E-mail</a>
+                <a href="" class="button primary-footer">Подписаться</a>
             </div>
         </div>
         <p class="container niz">2020 | Developed by GoIT Students</p>
